@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { scrapeStatus } from '@/lib/scraper';
 
-export const maxDuration = 500; // Allow 500s for scraper (Vercel limit)
+export const maxDuration = 60; // Max allowed for Vercel Hobby (60s). Pro allows up to 300s.
 
 export async function POST(req: NextRequest) {
   try {
