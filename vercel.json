@@ -1,5 +1,4 @@
 {
-  "regions": ["ap-south-1"],
   "functions": {
     "api/scrape.js": {
       "memory": 1024,
